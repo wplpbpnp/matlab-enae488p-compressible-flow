@@ -24,9 +24,15 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 ## Getting Started (MATLAB)
 
 1. Open MATLAB in the repo root.
-2. Start with standalone scripts such as `oshock.m`, `tbm.m`, `equation.m`, `m2.m`, or `p2p1.m`.
-3. Review matching published outputs in `html/` (for example `html/oshock.pdf` or `html/final_project.pdf`) to see expected report-style results.
-4. Run `final_project.m` after the smaller scripts if you want the most complete example.
+2. Start with the function pair `tbm.m` (theta-beta-mach solver) and `oshock.m` (oblique shock relations), which are reused by `final_project.m`.
+3. Run smaller standalone scripts such as `equation.m`, `m2.m`, or `p2p1.m` to validate the environment and inspect intermediate methods.
+4. Run `final_project.m` for the most complete project example (it calls `tbm(...)` and `oshock(...)` in a waverider/hypersonics analysis workflow).
+5. Review matching published outputs in `html/` (for example `html/oshock.pdf`, `html/tbm.pdf`, `html/final_project.pdf`) to compare expected report-style results.
+
+## Dependencies / Compatibility Notes
+
+- `tbm.m` uses Symbolic Math (`sym`, `vpasolve`), so Symbolic Math Toolbox is likely required for workflows that call it (including `final_project.m`).
+- Scripts assume helper functions remain on the MATLAB path (running from the repo root is the safest default).
 
 ## Suggested Showcase Files
 
