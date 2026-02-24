@@ -1,6 +1,6 @@
-# MATLAB ENAE488P Compressible Flow
+# MATLAB ENAE488P Hypersonic Flow
 
-MATLAB coursework and project scripts for ENAE488P-related compressible flow work.
+MATLAB coursework and project scripts for ENAE488P hypersonic flow / high-temperature gas dynamics work, including a hypersonic caret waverider project.
 
 ## Course Summary (Testudo)
 
@@ -26,7 +26,7 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 1. Open MATLAB in the repo root.
 2. Start with the function pair `tbm.m` (theta-beta-mach solver) and `oshock.m` (oblique shock relations), which are reused by `final_project.m`.
 3. Run smaller standalone scripts such as `equation.m`, `m2.m`, or `p2p1.m` to validate the environment and inspect intermediate methods.
-4. Run `final_project.m` for the most complete project example (it calls `tbm(...)` and `oshock(...)` in a waverider/hypersonics analysis workflow).
+4. Run `final_project.m` for the most complete project example (it calls `tbm(...)` and `oshock(...)` in a hypersonic caret waverider analysis workflow).
 5. Review matching published outputs in `html/` (for example `html/oshock.pdf`, `html/tbm.pdf`, `html/final_project.pdf`) to compare expected report-style results.
 
 ## Dependencies / Compatibility Notes
@@ -40,3 +40,7 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 - `oshock.m`
 - `tbm.m`
 - `html/final_project.pdf`
+
+## Project Highlight
+
+- `final_project.m`: hypersonic caret waverider analysis/design study using oblique-shock and theta-beta-mach calculations.
