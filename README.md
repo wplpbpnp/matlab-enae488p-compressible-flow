@@ -15,12 +15,6 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 - Supporting images (`*.jpg`, `*.tif`)
 - Published outputs in `html/` (`*.pdf`)
 
-## Repository Scope
-
-- Removed duplicate files named `Copy_of_*`
-- Removed editor autosave file (`final_project.asv`)
-- Removed scratch notebook file (`test.mlx`)
-
 ## Getting Started (MATLAB)
 
 1. Open MATLAB in the repo root.
