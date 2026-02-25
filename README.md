@@ -15,7 +15,7 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 - Supporting images (`*.jpg`, `*.tif`)
 - Published outputs in `html/` (`*.pdf`)
 
-## Staging Cleanup Applied
+## Repository Scope
 
 - Removed duplicate files named `Copy_of_*`
 - Removed editor autosave file (`final_project.asv`)
@@ -31,10 +31,10 @@ Testudo (topic offering reference): `https://app.testudo.umd.edu/soc/search?cour
 
 ## Dependencies / Compatibility Notes
 
-- `tbm.m` uses Symbolic Math (`sym`, `vpasolve`), so Symbolic Math Toolbox is likely required for workflows that call it (including `final_project.m`).
+- `tbm.m` uses Symbolic Math (`sym`, `vpasolve`); Symbolic Math Toolbox is required for workflows that call it (including `final_project.m`).
 - Scripts assume helper functions remain on the MATLAB path (running from the repo root is the safest default).
 
-## Suggested Showcase Files
+## Highlighted Files
 
 - `final_project.m`
 - `oshock.m`
